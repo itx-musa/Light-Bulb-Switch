@@ -10,9 +10,33 @@ body{
     background: #333;
     min-height: 100vh;
 }
+.new{
+    position: absolute;
+    right: -80%;
+    top: -160px;
+    width: 300px;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    font-size: 3em;
+    pointer-events: none;
+}
+.new1{
+    position: absolute;
+    right: -80%;
+    top: -100px;
+    width: 300px;
+    height: 100px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    pointer-events: none;
+}
+
 label{
     position: relative;
-    top: -150px;
+    top: -100px;
     width: 150px;
     height: 75px;
     background: #212121;
